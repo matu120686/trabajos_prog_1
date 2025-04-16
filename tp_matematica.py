@@ -24,7 +24,9 @@ print("=== Fin del Programa ===")
 
 # Juan y Matias
 
-# Conversion Decimal a Binario asd
+# Conversion Decimal a Binario
+
+# Nico, Andy y Noe
 
 
 
