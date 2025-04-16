@@ -17,3 +17,15 @@ else:
         i = i - 1
     print()
 print("=== Fin del Programa ===")
+
+#  Division de Temas
+
+# Compuertas Logicas
+
+# Juan y Matias
+
+# Conversion Decimal a Binario asd
+
+
+
+
