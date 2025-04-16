@@ -22,6 +22,17 @@ print("=== Fin del Programa ===")
 
 # Compuertas Logicas
 
+<<<<<<< HEAD
 # Juan, Matias, Nico, Andres, Noe
+=======
+# Juan y Matias
+
+# Conversion Decimal a Binario
+
+# Nico, Andy y Noe
+
+
+
+>>>>>>> 6cb094ec7adf85d32fc85f029d2eb63926fb5a83
 
 # Conversion Decimal a Binario asd
