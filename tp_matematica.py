@@ -1,3 +1,15 @@
+# TP Intetgrador Matematica 1 - J
+
+# Alumnos 
+
+# Juan Compuetas Logicas
+# Matias  Compuetas Logicas
+# Nico Explicacion Decimal
+# Andres Explicacion Decimal
+# Noe Explicacion Decimal
+
+# Conversor de Decimal a Binario
+
 print("=== Conversor de Decimal a Binario ===")
 print("Ingrese un número decimal: ")
 decimal = int(input())
@@ -17,22 +29,3 @@ else:
         i = i - 1
     print()
 print("=== Fin del Programa ===")
-
-#  Division de Temas
-
-# Compuertas Logicas
-
-<<<<<<< HEAD
-# Juan, Matias, Nico, Andres, Noe
-=======
-# Juan y Matias
-
-# Conversion Decimal a Binario
-
-# Nico, Andy y Noe
-
-
-
->>>>>>> 6cb094ec7adf85d32fc85f029d2eb63926fb5a83
-
-# Conversion Decimal a Binario asd
