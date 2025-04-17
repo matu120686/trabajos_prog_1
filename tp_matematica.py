@@ -22,10 +22,12 @@
 # - Andres Muñoz
 
 # ==============================================
-# En este programa aplicamos la lógica binaria para convertir
-# un número decimal a binario. Usamos estructuras condicionales
-# (if/elif/else) que representan decisiones lógicas similares a 
-# compuertas lógicas en electrónica digital (AND, OR, NOT).
+# En este programa utilizamos lógica booleana para convertir
+# un número decimal a binario. A través de estructuras condicionales
+# (if/elif/else), evaluamos condiciones verdaderas o falsas.
+# Aunque no implementamos compuertas lógicas directamente,
+# la lógica que usamos se basa en los mismos principios
+# que las compuertas AND, OR y NOT de la electrónica digital.
 # ==============================================
 
 print("=== Conversor de Decimal a Binario ===")
@@ -34,17 +36,17 @@ print("=== Conversor de Decimal a Binario ===")
 print("Ingrese un número decimal: ")
 decimal = int(input())
 
-# Compuerta lógica: condición 'si el número es negativo'
-# Simula una compuerta tipo NOT que rechaza el número
+# Evaluamos si el número es negativo
+# Esta condición representa una lógica tipo NOT: "no es un número válido"
 if decimal < 0:
     print("Por favor, ingrese un número positivo.")
 
-# Compuerta lógica: condición 'si el número es igual a 0'
-# Simula una compuerta de igualdad (==) que acepta solo el valor 0
+# Evaluamos si el número es igual a 0
+# Esta comparación se basa en la lógica de igualdad (==)
 elif decimal == 0:
     print("El número 0 en binario es: 0")
 
-# Si no se cumple ninguna de las anteriores, ejecutamos la conversión
+# Si no se cumple ninguna de las anteriores (el número es positivo y distinto de 0)
 else:
     binario = []
 
