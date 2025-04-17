@@ -16,7 +16,7 @@
 # - Juan Martínez
 # - Matias Olivera
 
-# Explicación del Sistema Decimal:
+# Explicación del método de conversión de un número decimal a binario:
 # - Noe Bareiro
 # - Nico Balverdi
 # - Andres Muñoz
