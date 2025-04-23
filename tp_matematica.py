@@ -7,7 +7,6 @@
 # - Juan Martínez
 # - Juan Barbero
 # - Matias Olivera
-# - Noe Bareiro
 # - Nico Balverdi
 # - Andres Muñoz
 
@@ -16,11 +15,10 @@
 # Compuertas Lógicas:
 # - Juan Martínez
 # - Matias Olivera
-# - Juan Barbero
 
 # Explicación del método de conversión de un número decimal a binario:
-# - Noe Bareiro
 # - Nico Balverdi
+# - Juan Barbero
 # - Andres Muñoz
 
 # ==============================================
