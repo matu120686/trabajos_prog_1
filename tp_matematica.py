@@ -5,6 +5,7 @@
 # Alumnos:
 # ----------
 # - Juan Martínez
+# - Juan Barbero
 # - Matias Olivera
 # - Noe Bareiro
 # - Nico Balverdi
@@ -15,6 +16,7 @@
 # Compuertas Lógicas:
 # - Juan Martínez
 # - Matias Olivera
+# - Juan Barbero
 
 # Explicación del método de conversión de un número decimal a binario:
 # - Noe Bareiro
@@ -37,13 +39,14 @@ print("Ingrese un número decimal: ")
 decimal = int(input())
 
 # Evaluamos si el número es negativo
-# Esta condición representa una lógica tipo NOT: "no es un número válido"
-if decimal < 0:
+# Se evalua si el número es menor que 0 y de ser así,
+# se le pide al usuario que ingrese un número positivo
+while decimal < 0:
     print("Por favor, ingrese un número positivo.")
-
+    decimal = int(input())
 # Evaluamos si el número es igual a 0
 # Esta comparación se basa en la lógica de igualdad (==)
-elif decimal == 0:
+if decimal == 0:
     print("El número 0 en binario es: 0")
 
 # Si no se cumple ninguna de las anteriores (el número es positivo y distinto de 0)
