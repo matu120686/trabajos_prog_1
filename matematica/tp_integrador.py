@@ -35,16 +35,14 @@ print("=== Conversor de Decimal a Binario ===")
 # número decimal ingresado por el usuario.
 bandera = 1
 # Solicitamos al usuario que ingrese un número decimal
-print("Ingrese un número decimal: ")
-decimal = int(input())
+decimal = int(input("Ingrese un número decimal: "))
 
 # Evaluamos si el número es negativo
 # Se evalua si el número es menor que 0 y de ser así,
 # se le pide al usuario que ingrese un número positivo
 while bandera == 1:
     while decimal < 0:
-        print("Por favor, ingrese un número positivo.")
-        decimal = int(input())
+        decimal = int(input("Por favor, ingrese un número positivo."))
     # Evaluamos si el número es igual a 0
     # Esta comparación se basa en la lógica de igualdad (==)
     if decimal == 0:
@@ -69,13 +67,12 @@ while bandera == 1:
             i = i - 1
 
         print()
-    # Preguntamos al usuario si desea continuar con otro número
-    print("¿Desea ingresar otro número? (1: Sí, 0: No): ")
-    bandera = int(input())
-    # En caso de que el usuario decida continuar convirtiendo números
-    # cargamos el nuevo número en la variable decimal para repetir el proceso
-    if bandera == 1:
-        print("Ingrese un número decimal: ")
-        decimal = int(input())
+        # Preguntamos al usuario si desea continuar con otro número
+        print("¿Desea ingresar otro número? (1: Sí, 0: No): ")
+        bandera = int(input())
+        # En caso de que el usuario decida continuar convirtiendo números
+        # cargamos el nuevo número en la variable decimal para repetir el proceso
+        if bandera == 1:
+            decimal = int(input("Ingrese un número decimal: "))
 
 print("=== Fin del Programa ===")
